@@ -1,9 +1,12 @@
+*{
+    font-size: 15.5px !important;
+}
 .t{
     display: grid;
-    width: 180%;
+    width: 133%;
     height: 92%;
     padding-top: 153px;
-    padding-left: 109;
+    padding-left: 109px;
     padding-right: 121px;
     grid-template-columns: repeat(135, 7px);
     grid-template-rows: repeat(136,8px);
@@ -16,10 +19,22 @@ body {
     width: 870px;
     height: 606px;
     place-content: center;
-    padding: 17px;
-    background: repeat-x url("/design/desktop-preview.jpg");
-
-  
+    padding: 56px;
+    background: rgb(102, 242, 247);
+    background-image: none;
+    
+}
+.icon {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: -200px !important;
+    position: absolute !important;
+    margin-top: -20px !important;
+    transform: rotate(-20deg) !important;
+    -webkit-transform: rotate(-5deg) !important;
+    -moz-transform: rotate(-20deg) !important;
+    -ms-transform: rotate(-20deg) !important;
+    -o-transform: rotate(-20deg) !important;
 }
 img {
     width:20px;
@@ -88,6 +103,7 @@ img {
     grid-column-end: 45;
     grid-row-start: 21;
     grid-row-end: 42;
+    font-size: 4px !important;
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -118,19 +134,6 @@ q {
     padding-right: 15px;
   
 
-}
-.icon {
-    width: 200px !important;
-    height: 200px !important;
-    margin-left: -200px !important;
-    position: absolute !important;
-    margin-top: -20px !important;
-    transform: rotate(-20deg) !important;
-    -webkit-transform: rotate(-5deg) !important;
-    -moz-transform: rotate(-20deg) !important;
-    -ms-transform: rotate(-20deg) !important;
-    -o-transform: rotate(-20deg) !important;
-    top: 241px !important;
 }
 span {
     color: white;
